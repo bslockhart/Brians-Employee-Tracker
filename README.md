@@ -8,14 +8,14 @@ Developers frequently have to create interfaces that allow non-developers to eas
 ## Table of Contents
 * [Tools](#tools)
 * [Mock Up](#Mock-Up)
-* [Screen Shots](#Screen-Shots)
 * [Instructions](#Instructions)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
+* [Delivarables](#Delivarables)
+* [Walkthrough Video](Walkthrough-Video)
 * [Technical Acceptance Criteria](#Technical-Acceptance-Criteria)
-* [Deployment](#Deployment)
-* [Application Quality](#Application-Quality)
 * [Repository Quality](#Repository-Quality)
+* [Application Quality](#Application-Quality)
 * [Bonus](#Bonus)
 * [Submission](#Submission)
 
@@ -27,7 +27,7 @@ Developers frequently have to create interfaces that allow non-developers to eas
 - CSS
 
 ### Mock Up
-![Team Generator HTML Webpage Screenshot](./assets/images/Unit_12_Homework_Demo.mp4)
+![Team Generator HTML Webpage Screenshot](./assets/images/Unit_12_Homework_Demo.jpeg)
 
 
 ## Instructions
@@ -60,7 +60,6 @@ Developers frequently have to create interfaces that allow non-developers to eas
 * THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 * WHEN I choose to update an employee role
 * THEN I am prompted to select an employee to update and their new role and this information is updated in the database
-
 
 ### Delivarables
 * Your GitHub repository containing your application code.
