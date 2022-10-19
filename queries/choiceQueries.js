@@ -1,8 +1,10 @@
 const db = require('../db/connection');
 
-class choiceQuery{
+// Class for all sql queries
+class choiceQuery {
     allDepartments() {
         const sql = `SELECT name FROM department`;
+        // Return current department
         return new Promise((resolve, reject) => {
             db.query(sql, (err, result) => {
                 const departmentArr = result.map(row => row.name);
@@ -13,6 +15,7 @@ class choiceQuery{
 
     allRoles() {
         const sql = `SELECT title FROM role`;
+        // Return current role
         return new Promise((resolve, reject) => {
             db.query(sql, (err, result) => {
                 const roleArr = result.map(row => row.title);
