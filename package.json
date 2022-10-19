@@ -25,5 +25,6 @@
     "url": "https://github.com/bsockhart/briansemployeetracker/issues"
   },
   "homepage": "https://github.com/bsockhart/briansemployeetracker#readme",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {}
 }

@@ -27,7 +27,7 @@ Developers frequently have to create interfaces that allow non-developers to eas
 - CSS
 
 ### Mock Up
-![Team Generator HTML Webpage Screenshot](./assets/images/Unit_12_Homework_Demo.jpeg)
+![Team Generator HTML Webpage Screenshot](./assets/images/MarkUp.png)
 
 
 ## Instructions
@@ -36,6 +36,17 @@ Developers frequently have to create interfaces that allow non-developers to eas
 3. Open command prompt and run: npm install
 4. To start the application, load it up in your IDE type in terminal: node app
 5. From there, you can choose how you want to view, retrieve, delete and edit the SQL data through a sequence of command line prompts.
+6. Initialize the NPM registry using: ```npm init -y```
+7. Navigate to the .env file provided in this repository and edit the empty strings for 'user' and 'password' to contain your MySQL login information.
+8. Run ```mysql -u root -p``` to login into sql.
+9. Run the following code lines to initialize the database and pre-populate its tables:
+- ```source db/db.sql```
+- ```source db/schema.sql```
+- ```source db/seeds.sql``` 
+10. Install the required packages using: 'npm i'
+11. Call the application using: node app
+12. Enjoy the Application 
+
 
 ### User Story
 * AS A business owner
@@ -45,21 +56,21 @@ Developers frequently have to create interfaces that allow non-developers to eas
 ### Acceptance Criteria:
 * GIVEN a command-line application that accepts user input
 * WHEN I start the application
-* THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role. Done
+* THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role.
 * WHEN I choose to view all departments
-* THEN I am presented with a formatted table showing department names and department ids. Done
+* THEN I am presented with a formatted table showing department names and department ids.
 * WHEN I choose to view all roles
-* THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role. Done
+* THEN I am presented with the job title, role id, the department that role belongs to, and the salary for that role. 
 * WHEN I choose to view all employees
-* THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to. Done
+* THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to.
 * WHEN I choose to add a department
-* THEN I am prompted to enter the name of the department and that department is added to the database. Done
+* THEN I am prompted to enter the name of the department and that department is added to the database.
 * WHEN I choose to add a role
-* THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database. Done.
+* THEN I am prompted to enter the name, salary, and department for the role and that role is added to the database. 
 * WHEN I choose to add an employee
-* THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database. Done
+* THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database. 
 * WHEN I choose to update an employee role
-* THEN I am prompted to select an employee to update and their new role and this information is updated in the database. Done
+* THEN I am prompted to select an employee to update and their new role and this information is updated in the database.
 
 ### Delivarables
 * Your GitHub repository containing your application code.
@@ -69,6 +80,7 @@ Developers frequently have to create interfaces that allow non-developers to eas
 * The walkthrough video must show all of the technical acceptance criteria being met.
 * The walkthrough video must demonstrate how a user would invoke the application from the command line.
 * The walkthrough video must demonstrate a functional menu with the options outlined in the acceptance criteria.
+* Link: https://drive.google.com/file/d/1pP0miQj_RXYGd4TllBr0crGr4ebgH14_/view
 
 ### Technical Acceptance Criteria
 * Satisfies all of the preceding acceptance criteria plus the following:
@@ -98,5 +110,5 @@ Developers frequently have to create interfaces that allow non-developers to eas
 ### Submission
 * Date Submitted: October 18, 2022
 * You are required to submit BOTH of the following for review: 
-1. A walkthrough video demonstrating the functionality of the application.
-2. The URL of the GitHub repository, with a unique name and a README describing the project.
+1. A walkthrough video demonstrating the functionality of the application: https://drive.google.com/file/d/1pP0miQj_RXYGd4TllBr0crGr4ebgH14_/view
+2. The URL of the GitHub repository, with a unique name and a README describing the project: https://github.com/bslockhart/Brians-Employee-Tracker
