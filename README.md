@@ -108,7 +108,7 @@ Developers frequently have to create interfaces that allow non-developers to eas
 5. Application allows users to view the total utilized budget of a department—in other words, the combined salaries of all employees in that department (8 points).
 
 ### Submission
-* Date Submitted: October 18, 2022
+* Date Submitted: October 19, 2022
 * You are required to submit BOTH of the following for review: 
 1. A walkthrough video demonstrating the functionality of the application: https://drive.google.com/file/d/1pP0miQj_RXYGd4TllBr0crGr4ebgH14_/view
 2. The URL of the GitHub repository, with a unique name and a README describing the project: https://github.com/bslockhart/Brians-Employee-Tracker
